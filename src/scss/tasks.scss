@@ -1,0 +1,18 @@
+@mixin task-common-style{
+  .tasks{
+    margin-top: 40px;
+    height: 370px;
+    overflow: hidden;
+    .task-item{
+      padding: 0 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      .task-text{
+        font-size: 16px;
+        color:#333;
+      }
+    }
+  }
+}
